@@ -1,0 +1,92 @@
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            height: 100%;
+        }
+
+        #all {
+            display: flex;
+        }
+
+        #personal-info {
+            order: 1;
+            background-color: black;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        #professional-info {
+            order: 2;
+            border: 2px solid black;
+            color: black;
+            padding: 40px;
+            background-color: rgb(150, 216, 229);
+        }
+
+        #personal-info a,
+        #professional-info a {
+            text-decoration: none; 
+            color: inherit; 
+        }
+
+        #personal-info a:hover,
+        #professional-info a:hover {
+            text-decoration: underline; 
+            color: #007bff; 
+        }
+
+        .project li {
+            padding-left: 20px;
+        }
+        .studies li {
+            padding-left: 20px;
+        }
+        .sip li {
+            padding-left: 20px;
+        }
+
+        #personal-info ul li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #personal-info ul li a {
+            margin-left: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            color: indigo;
+        }
+
+        h2 {
+            color: rgb(3, 67, 92);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+
+
+        #profile-image {
+            border-radius: 50%;
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+            border: 2px solid white;
+            margin: auto;
+        }
